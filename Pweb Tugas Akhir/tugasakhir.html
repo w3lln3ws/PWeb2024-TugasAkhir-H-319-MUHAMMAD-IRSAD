@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w3lln3ws</title>
+    <link rel="stylesheet" href="csTA.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>IRSAD</h1>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pages">Pages</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Hey there!</h1>
+            <p>I am IRSAD</p>
+            <p>Mahasiswa Informatika </p>
+            <p>Unicersitas Ahmad Dahlan</p>
+            <button>See my work</button>
+        </section>
+        <section id="about">
+            <h2>About me</h2>
+            <p>Saya adalah seorang mahasiswa Program Studi Informatika di Universitas Ahmad Dahlan. Dalam studi saya, saya fokus pada pengembangan keterampilan dalam pemrograman, analisis data, dan sistem informasi. Di universitas ini, saya mendapat kesempatan untuk belajar dan berlatih dengan berbagai teknologi terbaru, seperti kecerdasan buatan, pengembangan aplikasi mobile, dan jaringan komputer.</p>
+            <p>-</p>
+            <p>Selain mengikuti perkuliahan, hobi saya adalah bermain skateboard, mengendarai motor, dan mendaki gunung. Kegiatan-kegiatan ini tidak hanya memberikan kesenangan dan kebugaran fisik, tetapi juga mengajarkan saya tentang ketekunan, keseimbangan, dan keberanian dalam menghadapi tantangan.</p>
+            <p>-</p>
+            <p>Salah satu proyek yang saya kerjakan saat ini adalah pengembangan sebuah website portofolio. Proyek ini memungkinkan saya untuk menampilkan keterampilan dan pengalaman saya dalam desain web, pemrograman front-end dan back-end, serta manajemen konten. Melalui proyek ini, saya dapat menunjukkan hasil karya saya secara profesional dan membangun jaringan dengan rekan-rekan serta calon pemberi kerja di industri teknologi.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Portfolio 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Portfolio 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Portfolio 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Portfolio 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Portfolio 5">
+                </div>
+            </div>
+        </section>
+        <section id="pages">
+            <h2>Pages</h2>
+            <div class="page-item">
+                <h3>Our Services</h3>
+                <p>Belum Ada.</p>
+            </div>
+        
+        </section>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Blog Post Title 1</h3>
+                <p>Date Published</p>
+                <img src="https://via.placeholder.com/300x200" alt="Blog Image 1">
+                <p>Short description of the blog post...</p>
+                <a href="full-article-1.html">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Blog Post Title 2</h3>
+                <p>Date Published</p>
+                <img src="https://via.placeholder.com/300x200" alt="Blog Image 2">
+                <p>Short description of the blog post...</p>
+                <a href="full-article-2.html">Read More</a>
+            </div>
+        </section>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="phpTA.php" method="post" onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <script src="jsTA.js"></script>
+</body>
+</html>
+
